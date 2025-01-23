@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #461220;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: #fff;
+    margin-top: 50px;
+    font-size: 50px;
+}
+.game{
+    margin-top: 20px;
+    width: 300px;
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+.btn{
+    height: 90px;
+    width: 90px;
+    background-color: #ffffffaf;
+    color: #461220;
+    font-size: 70px;
+    font-weight: bolder;
+    backdrop-filter: blur(5px);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #ffffffba;
+    backdrop-filter: blur(5px);
+}
+.btn:active{
+    background-color: #ffffffaf;
+}
+.rest{
+    margin-top: 40px;
+    padding: 12px 14px;
+    background-color: #ffffffaf;
+    color: #461220;
+    font-size: 20px;
+    font-weight: bold;
+    backdrop-filter: blur(5px);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.rest:hover{
+    background-color: #ffffffba;
+}
+.rest:active{
+    background-color: #ffffffaf;
+}
+.meg{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.meg h2{
+    color: #fff;
+}
+.hide{
+    display: none;
+}
